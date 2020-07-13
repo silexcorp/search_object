@@ -1,6 +1,32 @@
 # search_object
 
-A new Flutter application.
+Serach word on object list in flutter.
+
+Searches from any atributes of the list, and if is encountered return a list of GlyphModel like List<GlyphModel>.
+
+```
+  GlyphModel glyph_one(){
+    return GlyphModel(
+      name: 'One',
+      colors: "#808080,#FFFFFF,#000000",
+      description: """The lowest cardinal number; half of two; 1.""",
+    );
+  }
+  GlyphModel glyph_two(){
+    return GlyphModel(
+      name: 'Two',
+      colors: "#808080,#FFFFFF,#000000",
+      description: """Equivalent to the sum of one and one; one less than three; 2.""",
+    );
+  }
+  GlyphModel glyph_three(){
+    return GlyphModel(
+      name: 'Three',
+      colors: "#808080,#FFFFFF,#000000",
+      description: """Equivalent to the sum of one and two; one more than two; 3.""",
+    );
+  }
+```
 
 ## Screenshots
 
